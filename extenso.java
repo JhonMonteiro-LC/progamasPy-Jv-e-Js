@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Extenso {
+public class extenso {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -96,3 +96,4 @@ public class Extenso {
         sc.close();
     }
 }
+
