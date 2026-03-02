@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Diadasemana {
+public class diadasemana {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -36,3 +36,4 @@ public class Diadasemana {
         sc.close();
     }
 }
+
