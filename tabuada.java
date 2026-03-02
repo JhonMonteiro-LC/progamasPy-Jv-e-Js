@@ -1,0 +1,44 @@
+mport java.util.Scanner;
+
+public class tabuada {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número: ");
+        double n1 = sc.nextDouble();
+
+        System.out.print("Digite o segundo número: ");
+        double n2 = sc.nextDouble();
+
+        System.out.println("Escolha a operação:");
+        System.out.println("1 - Soma");
+        System.out.println("2 - Subtração");
+        System.out.println("3 - Divisão");
+        System.out.println("4 - Multiplicação");
+
+        int opcao = sc.nextInt();
+
+        switch (opcao) {
+            case 1:
+                System.out.println("Resultado: " + (n1 + n2));
+                break;
+            case 2:
+                System.out.println("Resultado: " + (n1 - n2));
+                break;
+            case 3:
+                if (n2 != 0) {
+                    System.out.println("Resultado: " + (n1 / n2));
+                } else {
+                    System.out.println("Não pode dividir por zero!");
+                }
+                break;
+            case 4:
+                System.out.println("Resultado: " + (n1 * n2));
+                break;
+            default:
+                System.out.println("Opção inválida!");
+        }
+
+        sc.close();
+    }
+}
