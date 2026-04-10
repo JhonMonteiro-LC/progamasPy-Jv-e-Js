@@ -1,2 +1,0 @@
-a = int(input("digite um número: "))
-b=
